@@ -40,20 +40,20 @@ Since iOS lacks folder structure, its really hard to have music organized in the
 
 
 # Prerequisites
---------------
+
 Python
 
 Python Packages:eyed3, mutagen
 
 
 # To install python packages
----------------------------
+
 pip install eyed3
 
 pip install mutagen
 
 # Reason for using both eyed3 and mutagen
------------------------------------------
+
 I have used both eyed3 and mutagen because eyed3 can modify or add only ID3 tags.
 
 so if your track currently has other versions of ID tags, then mutagen does a great job of clearing them up for eyed3 to take effect.
@@ -64,8 +64,8 @@ I organized around 5k titles through this script and they were of varying format
 
 
 # How to use the script
-----------------------
-if you folder structure is like
+
+If you have organized music like
 
 		Music
 		-----Artist1
@@ -98,7 +98,7 @@ if you folder structure is like
 		-----------------song3
 		-----------------song'n'
 
-run the script from Music folder
+Then, run the script from Music folder
 
 cd Music
 
